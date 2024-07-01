@@ -14,6 +14,7 @@ include("connect.php");
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/query.css">
+    <link rel="stylesheet" type="text/css" href="css/scrollbar.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js" defer></script>
@@ -126,10 +127,10 @@ include("connect.php");
                         frameborder="0"></iframe>
                 </div>
                 <div class="col" id="myself-content2">
-                    Lorem ipsum dolor sit amet consectetur. Curabitur amet nulla dapibus adipiscing consectetur pretium
-                    iaculis eleifend nisl. Sodales malesuada id lectus nunc id. Ut est posuere ut risus volutpat vitae
-                    gravida non a. Dignissim adipiscing rutrum malesuada aliquet ac. Lectus faucibus pharetra vitae quam
-                    enim sit lacus curabitur massa. Diam justo.
+                    My name is Hien Nguyen. I recently graduated from Ly Tu Trong High School for the Gifted and I am currently pursuing my field of study: Psychology. Although this journey is far from easy, the experiences, lessons, and even the setbacks I have encountered have led me to realize that my passion is not just a passing interest but a true life goal. "Life is a journey, not a destination" – therefore, I always maintain a sense of responsibility, enthusiasm, and dedication in my work, cherishing every beautiful moment that passes. In this way, whenever I reflect on my journey, I can proudly say to myself:  "Thank you, Hien. I am proud of you!”.
+                    <br> 
+                    <br>
+                    By the way, welcome to my place, and I hope you enjoy your time here!
                 </div>
             </div>
         </div>
@@ -180,7 +181,7 @@ include("connect.php");
                     <div class="resume-big-title">LEADERSHIP AND ACTIVITIES</div>
                     <div class="resume-content-container hidden">
                         <span style="bottom: 160%; width: 380px; margin-left: -190px" class="ttiptext">Click on titles below to see some magic</span>
-                        <div class="time">2022-2023</div>
+                        <div class="time">2022-2024</div>
                         <div class="time-ball"></div>
                         <div class="resume-sub-content-container">
                             <div class="resume-title">Class Monitor</div>
@@ -188,14 +189,14 @@ include("connect.php");
                             <div class="resume-sub-content">
                                 <ul>
                                     <li>Led and organized the <strong>class activities</strong>.</li>
-                                    <li>In charge of the class discipline.</li>
-                                    <li><strong>Teachers’ assistant</strong> in terms of delegating assignments to the class.</li>
+                                    <li>Took charge of the class discipline.</li>
+                                    <li><strong>Assisted the teachers</strong> in delegating assignments to the class.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="resume-content-container hidden">
-                        <div class="time">2022-2024</div>
+                        <div class="time">2022-2023</div>
                         <div class="time-ball"></div>
                         <div class="resume-sub-content-container">
                             <div class="resume-title"><a href="gallery/gallery-chigo">Chi Go Project</a></div>
@@ -402,9 +403,9 @@ include("connect.php");
                                 <ul>
                                     <li>IELTS: <strong>7.0</strong>.</li>
                                     <li><strong>Model</strong> for the “Idioms of the Week” Series by English Club.</li>
-                                    <li><strong>Content Writer</strong> for Ted-Ed Club at Ly Tu Trong High School for
+                                    <!-- <li><strong>Content Writer</strong> for Ted-Ed Club at Ly Tu Trong High School for
                                         the
-                                        gifted.</li>
+                                        gifted.</li> -->
                                     <li><strong>Translator</strong> at SE:ED Project.</li>
                                     <li>Online <strong>courses of Standford Medicine</strong>: Early Signs of Psychosis
                                         in
@@ -412,10 +413,16 @@ include("connect.php");
                                     </li>
                                 </ul>
                             </div>
+                            <div>
+                                <i class="ri-link-m"></i>
+                                <a class="visitlink" href="certifications">
+                                    View my certifications
+                                </a>
+                            </div>
                         </div>
                     </div>
                    
-                    <button class="hidden" id="download-button"> <a href="downloadtest.txt" download="resume">Download
+                    <button class="hidden" id="download-button"> <a href="resume_preview">Download
                             <br> My Resume</a></button>
                 </div>
             </div>
@@ -511,42 +518,16 @@ include("connect.php");
                 <a href="identity-bookworm">
                 <span style="bottom: -100px" class="ttiptext">Click on symbols for more details</span>
                     <img src="assets/img/icon/bookworm.png" alt="">
-                    <!-- <i class="ri-book-open-fill"></i> -->
-                    <!-- <svg width="190" height="67" viewBox="0 0 190 67" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M62.4141 25.0869H187.996" stroke="#F28775" stroke-width="3" stroke-linecap="round" />
-                        <path
-                            d="M56.6401 1.99121C49.0202 3.41994 -0.626991 15.6006 2.10891 22.4404C5.81366 31.7023 21.3788 36.8156 29.2943 40.4838C47.9359 49.1226 67.1436 56.321 85.5095 65.504"
-                            stroke="#F28775" stroke-width="3" stroke-linecap="round" />
-                    </svg> -->
-                    <!-- <p class="detail">I'm a real Bookworm</p> -->
                 </a>
               
                 <a href="#testimonial-section" id="letter-nav">
                     <img src="assets/img/icon/envelope.png" alt="">
-                    <!-- <i class="ri-mail-open-fill"></i>  -->
-                    <!-- <p class="detail">Everyone's perspectives on me</p> -->
                 </a>
                 <a href="identity-ambivert">
                     <img src="assets/img/icon/personality.png" alt="">
-                    <!-- <i class="ri-user-heart-fill"></i> -->
-                <!-- <svg width="155" height="80" viewBox="0 0 155 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M1.93164 42.4172C29.1438 42.4172 56.3559 42.4172 83.568 42.4172C91.7226 42.4172 99.458 41.492 107.305 39.5303"
-                        stroke="#F28775" stroke-width="3" stroke-linecap="round" />
-                    <path
-                        d="M107.305 2C114.459 4.38466 121.935 13.8736 127.193 19.0009C135.069 26.6827 146.348 32.4842 152.614 41.5351C156.393 46.9942 119.376 71.6836 115.966 78.504"
-                        stroke="#F28775" stroke-width="3" stroke-linecap="round" />
-                </svg> -->
-                    <!-- <p class="detail">I'm an Ambivert</p> -->
                 </a>
             </div>
         </div>
-        <!-- <svg class="hidden" id="identity-partern" width="321" height="226" viewBox="0 0 321 226" fill="none"
-            xmlns="http://www.w3.org/2000/svg">
-            <path
-                d="M1.6582 2.03582C55.4944 2.03582 109.331 2.03582 163.167 2.03582C200.804 2.03582 238.441 2.03582 276.078 2.03582C288.174 2.03582 300.502 1.56225 312.486 3.55948C316.426 4.21614 323.208 5.31406 316.656 8.85221C287.726 24.4742 252.153 28.9908 220.424 34.9149C164.24 45.405 107.546 55.5175 52.5005 71.1621C51.429 71.4666 7.75486 85.933 25.8765 88.6441C61.8281 94.0227 100.672 90.0876 136.863 90.0876C155.44 90.0876 174.021 89.9763 192.597 90.1678C206.935 90.3156 222.64 89.5932 236.543 93.8567C244.12 96.1803 251.397 103.503 241.916 109.174C234.28 113.741 224.878 115.934 216.495 118.476C196.594 124.51 176.637 131.048 156.19 134.996C137.934 138.52 119.397 138.545 101.097 141.491C96.0457 142.305 82.5729 146.279 87.3042 148.227C103.302 154.815 123.395 156.458 140.071 159.695C160.178 163.598 185.472 165.234 204.225 174.611C210.622 177.809 201.079 189.789 199.173 192.734C192.801 202.583 182.558 220.326 170.544 224.33"
-                stroke="#F28775" stroke-width="3" stroke-linecap="round" />
-        </svg> -->
     </section>
     <section id="testimonial-section" class="contain">
         <div class="hidden testimonial mySwiper">
