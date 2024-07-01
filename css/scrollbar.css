@@ -1,0 +1,47 @@
+:root {
+
+    --main-title-font: "Cabin", sans-serif;
+    --sub-title-font: "Baloo 2", sans-serif;
+    --content-font: "Nunito Sans", sans-serif;
+
+    --highlight-color: #FE583C;
+    --background-color: #F9F6E4;
+    --primary-color: #F28775;
+    --placeholder-color: #D9D9D9;
+    --disable-color: #A6A6A6;
+    --enable-color: #000000;
+
+    --mybold: 800;
+    --myregular: 500;
+}
+
+/* scrollbar track */
+::-webkit-scrollbar {
+    background-color: var(--background-color);
+    width: 1em;
+}
+
+/* ::-webkit-scrollbar-track {
+    background-color: #ffffff53;
+    margin: 10px;
+    border-radius: 100vw;
+} */
+
+/* scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 100vw;
+}
+
+/* scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: var(--highlight-color);
+}
+
+
+@media screen and (max-width:600px) {
+    ::-webkit-scrollbar {
+        width: 0.5em;
+    }
+}
